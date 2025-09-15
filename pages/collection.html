@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Collections | Mulungi Designs Co.</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/css/collection.css">
+</head>
+<body>
+    <header>
+        <div class="logo">Mulungi Designs Co.</div>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="story.html">Our Story</a>
+            <a href="collections.html">Collections</a> <!-- Updated to active page -->
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+
+    <main>
+        <section class="collections-hero">
+            <h1>Our Collections</h1>
+            <p>Discover handcrafted pieces made with passion and attention to detail. Each collection tells a unique story.</p>
+        </section>
+
+        <!-- Filter and Sort Bar -->
+        <section class="collections-controls">
+            <div class="controls-container">
+                <div class="filter-group">
+                    <label for="category-filter">Filter by:</label>
+                    <select id="category-filter">
+                        <option value="all">All Categories</option>
+                        <option value="pottery">Pottery</option>
+                        <option value="woodwork">Woodwork</option>
+                        <option value="textiles">Textiles</option>
+                        <option value="leather">Leather Goods</option>
+                        <option value="jewelry">Jewelry</option>
+                    </select>
+                </div>
+
+                <div class="sort-group">
+                    <label for="sort-by">Sort by:</label>
+                    <select id="sort-by">
+                        <option value="featured">Featured</option>
+                        <option value="newest">Newest First</option>
+                        <option value="price-low">Price: Low to High</option>
+                        <option value="price-high">Price: High to Low</option>
+                    </select>
+                </div>
+            </div>
+        </section>
+
+        <!-- Collections Grid -->
+        <section class="collections-grid">
+            <div class="products-container">
+                <!-- Product 1 -->
+                <div class="product-card" data-category="pottery" data-price="85">
+                    <div class="product-image">
+                        <img src="../images/TableSet2.jpeg" alt="">
+                        <div class="product-overlay">
+                            <button class="quick-view">Quick View</button>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h3>Ceramic Morning Bowl</h3>
+                        <p class="product-desc">Hand-thrown stoneware with natural glaze</p>
+                        <p class="product-price">$85.00</p>
+                    </div>
+                </div>
+
+                <!-- Product 2 -->
+                <div class="product-card" data-category="woodwork" data-price="120">
+                    <div class="product-image">
+                        <img src="../images/LegacySteps.jpeg" alt="">
+                        <div class="product-overlay">
+                            <button class="quick-view">Quick View</button>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h3>Walnut Cutting Board</h3>
+                        <p class="product-desc">Reclaimed walnut with natural oil finish</p>
+                        <p class="product-price">$120.00</p>
+                    </div>
+                </div>
+
+                <!-- Product 3 -->
+                <div class="product-card" data-category="leather" data-price="95">
+                    <div class="product-image">
+                        <img src="../images/KenteWaistBag.jpeg" alt="">
+                        <div class="product-overlay">
+                            <button class="quick-view">Quick View</button>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h3>Hand-stitched Journal</h3>
+                        <p class="product-desc">Full-grain leather with acid-free paper</p>
+                        <p class="product-price">$95.00</p>
+                    </div>
+                </div>
+
+                <!-- Product 4 -->
+                <div class="product-card" data-category="textiles" data-price="65">
+                    <div class="product-image">
+                        <img src="../images/GreenPrint.jpeg" alt="">
+                        <div class="product-overlay">
+                            <button class="quick-view">Quick View</button>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h3>Woven Wool Blanket</h3>
+                        <p class="product-desc">Handwoven with natural dyed wool</p>
+                        <p class="product-price">$65.00</p>
+                    </div>
+                </div>
+
+                <!-- Product 5 -->
+                <div class="product-card" data-category="jewelry" data-price="45">
+                    <div class="product-image">
+                        <img src="../images/Ankara bags 1.jpeg" alt="">
+                        <div class="product-overlay">
+                            <button class="quick-view">Quick View</button>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h3>Silver Bloom Pendant</h3>
+                        <p class="product-desc">Handcrafted sterling silver necklace</p>
+                        <p class="product-price">$45.00</p>
+                    </div>
+                </div>
+
+                <!-- Product 6 -->
+                <div class="product-card" data-category="pottery" data-price="150">
+                    <div class="product-image">
+                        <img src="../images/African Curtains.jpeg" alt="">
+                        <div class="product-overlay">
+                            <button class="quick-view">Quick View</button>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h3>Tea Ceremony Set</h3>
+                        <p class="product-desc">4-piece hand-painted ceramic tea set</p>
+                        <p class="product-price">$150.00</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Load More Button -->
+        <section class="load-more">
+            <button class="cta-button">Load More</button>
+        </section>
+
+        <!-- Newsletter Signup -->
+        <section class="newsletter">
+            <div class="newsletter-content">
+                <h2>Stay Inspired</h2>
+                <p>Join our newsletter for new collection updates, crafting stories, and exclusive offers.</p>
+                <form class="newsletter-form">
+                    <input type="email" placeholder="Enter your email" required>
+                    <button type="submit" class="cta-button">Subscribe</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2025 Mulungi Designs Co. All rights reserved.</p>
+    </footer>
+
+    <script src="/javascript/collection.js"></script>
+</body>
+</html>

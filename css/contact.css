@@ -1,0 +1,203 @@
+/* Contact */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem 5%;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.logo {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #5a3921; /* A deep, warm brown */
+}
+
+nav a {
+    margin-left: 2rem;
+    text-decoration: none;
+    color: #666;
+    font-weight: 500;
+}
+
+nav a:hover {
+    color: #5a3921;
+}
+
+/* Contact Hero Section */
+.contact-hero {
+    text-align: center;
+    padding: 4rem 2rem;
+    background-color: #f5f1eb;
+    color: #333;
+}
+
+.contact-hero h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.contact-hero p {
+    font-size: 1.1rem;
+    max-width: 600px;
+    margin: 0 auto;
+    color: #666;
+}
+
+/* Main Contact Container */
+.contact-container {
+    display: flex;
+    max-width: 1200px;
+    margin: 4rem auto;
+    padding: 0 2rem;
+    gap: 4rem;
+}
+
+/* Contact Information */
+.contact-info {
+    flex: 1;
+}
+
+.contact-info h2 {
+    color: #5a3921;
+    margin-bottom: 1.5rem;
+    font-size: 1.8rem;
+}
+
+.contact-info > p {
+    margin-bottom: 2.5rem;
+    line-height: 1.6;
+    color: #666;
+}
+
+.contact-detail {
+    margin-bottom: 2rem;
+    padding: 1.5rem;
+    background: #faf9f5;
+    border-radius: 8px;
+    border-left: 4px solid #c68247;
+}
+
+.contact-detail h3 {
+    color: #5a3921;
+    margin-bottom: 0.5rem;
+    font-size: 1.1rem;
+}
+
+.contact-detail p {
+    color: #666;
+    margin: 0;
+    line-height: 1.5;
+}
+
+/* Contact Form */
+.contact-form {
+    flex: 1;
+    background: white;
+    padding: 2.5rem;
+    border-radius: 12px;
+    box-shadow: 0 5px 25px rgba(0, 0, 0, 0.1);
+}
+
+.contact-form h2 {
+    color: #5a3921;
+    margin-bottom: 2rem;
+    text-align: center;
+    font-size: 1.8rem;
+}
+
+.form-group {
+    margin-bottom: 1.5rem;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: 500;
+    color: #333;
+}
+
+.form-group input,
+.form-group select,
+.form-group textarea {
+    width: 100%;
+    padding: 12px;
+    border: 2px solid #e5e5e5;
+    border-radius: 6px;
+    font-family: 'Inter', sans-serif;
+    font-size: 1rem;
+    transition: border-color 0.3s ease;
+}
+
+.form-group input:focus,
+.form-group select:focus,
+.form-group textarea:focus {
+    outline: none;
+    border-color: #c68247;
+}
+
+.form-group textarea {
+    resize: vertical;
+    min-height: 120px;
+}
+
+/* Map Section */
+.map-section {
+    max-width: 1200px;
+    margin: 4rem auto;
+    padding: 0 2rem;
+    text-align: center;
+}
+
+.map-section h2 {
+    color: #5a3921;
+    margin-bottom: 2rem;
+    font-size: 2rem;
+}
+
+.map-placeholder {
+    background: #f5f1eb;
+    border-radius: 12px;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #666;
+}
+
+.map-content {
+    text-align: center;
+}
+
+/* --- Responsive Design for Mobile --- */
+@media (max-width: 768px) {
+    .contact-container {
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    .contact-hero {
+        padding: 3rem 1rem;
+    }
+
+    .contact-hero h1 {
+        font-size: 2rem;
+    }
+
+    .contact-form {
+        padding: 2rem;
+    }
+
+    .map-placeholder {
+        height: 200px;
+    }
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 5px;
+    background-color: #fff;
+    color: #666;
+}
