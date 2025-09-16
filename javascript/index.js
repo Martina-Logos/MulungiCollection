@@ -6,5 +6,5 @@ document.getElementById("getStartedBtn").addEventListener("click", function () {
   );
 
   // To actually link to another page, use the line below instead:
-  window.location.href = "../pages/story.html";
+  window.location.href = "story.html";
 });
