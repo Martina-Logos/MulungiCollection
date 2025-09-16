@@ -49,7 +49,6 @@ nav a:hover {
     min-height: 80vh; /* Makes the section take most of the viewport height */
     padding: 0 5%;
     background: url(../images/walldecor1.jpeg) no-repeat center center/cover;
-    /* Change the URL to your own hero image. This is a placeholder from Unsplash. */
     color: #fff;
     background-blend-mode: overlay;
     background-color: rgba(0, 0, 0, 0.6); /* Dark overlay for text readability */
