@@ -11,26 +11,26 @@ header {
 .logo {
     font-size: 1.5rem;
     font-weight: 700;
-    color: #5a3921; /* A deep, warm brown */
+    color: #613659; /* A deep, warm brown */
 }
 
 nav a {
     margin-left: 2rem;
     text-decoration: none;
-    color: #666;
+    color: #5a3921;
     font-weight: 500;
 }
 
 nav a:hover {
-    color: #5a3921;
+    color: plum;
 }
 
 /* Contact Hero Section */
 .contact-hero {
     text-align: center;
     padding: 4rem 2rem;
-    background-color: #f5f1eb;
-    color: #333;
+    background-color: plum;
+    color: black;
 }
 
 .contact-hero h1 {
@@ -42,7 +42,7 @@ nav a:hover {
     font-size: 1.1rem;
     max-width: 600px;
     margin: 0 auto;
-    color: #666;
+    color: #5a3921;
 }
 
 /* Main Contact Container */
@@ -68,15 +68,15 @@ nav a:hover {
 .contact-info > p {
     margin-bottom: 2.5rem;
     line-height: 1.6;
-    color: #666;
+    color: black;
 }
 
 .contact-detail {
     margin-bottom: 2rem;
     padding: 1.5rem;
-    background: #faf9f5;
+    background: plum;
     border-radius: 8px;
-    border-left: 4px solid #c68247;
+    border-left: 4px solid purple;
 }
 
 .contact-detail h3 {
@@ -86,7 +86,7 @@ nav a:hover {
 }
 
 .contact-detail p {
-    color: #666;
+    color: black;
     margin: 0;
     line-height: 1.5;
 }
@@ -198,6 +198,6 @@ nav a:hover {
 footer {
     text-align: center;
     padding: 5px;
-    background-color: #fff;
-    color: #666;
+    background-color: #613659;
+    color: white;
 }

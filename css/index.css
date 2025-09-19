@@ -9,7 +9,7 @@ body {
     font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
     line-height: 1.6;
     color: #333;
-    background-color: #faf9f5; /* A warm, neutral off-white */
+    background-color: #eeede7; /* A warm, neutral off-white */
 }
 
 /* Header */
@@ -25,19 +25,20 @@ header {
 .logo {
     font-size: 1.5rem;
     font-weight: 700;
-    color: #5a3921; /* A deep, warm brown */
+    color: #613659; /* A deep, warm brown */
 }
 
 nav a {
     margin-left: 2rem;
     text-decoration: none;
-    color: #666;
+    color: #5a3921;
     font-weight: 500;
 }
 
 nav a:hover {
-    color: #5a3921;
+    color: plum;
 }
+
 
 /* Hero Section (Main Content) */
 .hero {
@@ -67,12 +68,13 @@ nav a:hover {
     opacity: 0.9;
 }
 
+
 /* Call-to-Action Button */
 .cta-button {
     padding: 1rem 2.5rem;
     font-size: 1.1rem;
     font-weight: 600;
-    background-color: #c68247; /* A warm, golden accent color */
+    background-color: purple; /* A warm, golden accent color */
     color: white;
     border: none;
     border-radius: 50px;
@@ -81,36 +83,63 @@ nav a:hover {
 }
 
 .cta-button:hover {
-    background-color: #b2733b; /* A slightly darker shade on hover */
+    background-color: plum; /* A slightly darker shade on hover */
     transform: translateY(-2px); /* A subtle "lift" effect */
 }
 
+
 /* --- Responsive Design for Mobile --- */
-@media (max-width: 768px) {
-    .story-block,
-    .story-block.reversed {
-        flex-direction: column; /* Stack text and image on top of each other */
-        gap: 2rem;
-        margin-bottom: 4rem;
-    }
-
-    .story-hero {
-        padding: 4rem 1rem;
-    }
-
-    .story-hero h1 {
-        font-size: 2rem;
-    }
-
-    .story-text h2 {
-        font-size: 1.75rem;
-    }
+/* Reset + global styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
+
+body {
+  font-family: 'Inter', sans-serif;
+  line-height: 1.6;
+  color: #333;
+}
+
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .hero h1 {
+    font-size: 2rem;
+  }
+
+  .hero p {
+    font-size: 1rem;
+  }
+
+  .cta-button {
+    width: 100%;
+    max-width: 300px;
+  }
+}
+
+@media (max-width: 480px) {
+  header {
+    font-size: 1rem;
+    padding: 0.8rem;
+  }
+
+  .hero h1 {
+    font-size: 1.6rem;
+  }
+
+  .hero p {
+    font-size: 0.95rem;
+  }
+}
+
 
 /* Footer */
 footer {
     text-align: center;
     padding: 5px;
-    background-color: #fff;
-    color: #666;
+    background-color: #613659;
+    color: white;
 }
+

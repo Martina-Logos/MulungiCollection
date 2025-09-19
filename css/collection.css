@@ -11,18 +11,18 @@ header {
 .logo {
     font-size: 1.5rem;
     font-weight: 700;
-    color: #5a3921; /* A deep, warm brown */
+    color: #613659; /* A deep, warm brown */
 }
 
 nav a {
     margin-left: 2rem;
     text-decoration: none;
-    color: #666;
+    color: #5a3921;
     font-weight: 500;
 }
 
 nav a:hover {
-    color: #5a3921;
+    color: plum;
 }
 
 
@@ -30,8 +30,8 @@ nav a:hover {
 .collections-hero {
     text-align: center;
     padding: 4rem 2rem;
-    background-color: #f5f1eb;
-    color: #333;
+    background-color: plum;
+    color: black;
 }
 
 .collections-hero h1 {
@@ -43,7 +43,7 @@ nav a:hover {
     font-size: 1.1rem;
     max-width: 600px;
     margin: 0 auto;
-    color: #666;
+    color: #5a3921;
 }
 
 /* Filter and Sort Controls */
@@ -183,15 +183,9 @@ nav a:hover {
     margin: 0;
 }
 
-/* Load More Button */
-.load-more {
-    text-align: center;
-    margin: 3rem 0;
-}
-
 /* Newsletter Section */
 .newsletter {
-    background: #5a3921;
+    background: purple;
     color: white;
     padding: 4rem 2rem;
     text-align: center;
@@ -274,6 +268,6 @@ nav a:hover {
 footer {
     text-align: center;
     padding: 5px;
-    background-color: #fff;
-    color: #666;
+    background-color: #613659;
+    color: white;
 }

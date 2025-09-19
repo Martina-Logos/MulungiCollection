@@ -11,18 +11,18 @@ header {
 .logo {
     font-size: 1.5rem;
     font-weight: 700;
-    color: #5a3921; /* A deep, warm brown */
+    color: #613659; /* A deep, warm brown */
 }
 
 nav a {
     margin-left: 2rem;
     text-decoration: none;
-    color: #666;
+    color: #5a3921;
     font-weight: 500;
 }
 
 nav a:hover {
-    color: #5a3921;
+    color: plum;
 }
 
 
@@ -30,8 +30,8 @@ nav a:hover {
 .story-hero {
     text-align: center;
     padding: 6rem 2rem;
-    background-color: #f5f1eb; /* A subtle, warm background */
-    color: #333;
+    background-color: plum; /* A subtle, warm background */
+    color: black;
 }
 
 .story-hero h1 {
@@ -44,7 +44,7 @@ nav a:hover {
     max-width: 700px;
     margin: 0 auto;
     font-style: italic;
-    color: #666;
+    color: #5a3921;
 }
 
 /* Main Story Content Blocks */
@@ -109,7 +109,7 @@ nav a:hover {
 .story-cta {
     text-align: center;
     padding: 5rem 2rem;
-    background-color: #5a3921;
+    background-color: purple;
     color: #fff;
 }
 
@@ -156,6 +156,6 @@ color: white;
 footer {
     text-align: center;
     padding: 5px;
-    background-color: #fff;
-    color: #666;
+    background-color: #613659;
+    color: white;
 }
